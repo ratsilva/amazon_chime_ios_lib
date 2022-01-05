@@ -1,0 +1,2 @@
+**/AmazonChimeSDK.xcframework/** filter=lfs diff=lfs merge=lfs -text
+**/AmazonChimeSDKMedia.xcframework/** filter=lfs diff=lfs merge=lfs -text
