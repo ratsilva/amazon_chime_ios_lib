@@ -10,9 +10,8 @@ Pod::Spec.new do |s|
   s.homepage         = 'http://example.com'
   s.license          = 'Apache-2.0'
   s.author           = { 'Your Company' => 'email@example.com' }
-  s.source           = { :path => '.' }
+  s.source           = { :path => './AmazonChime' }
   s.source_files = 'Classes/**/*'
-  s.dependency 'Flutter'
   s.vendored_frameworks = 'AmazonChimeSDKMedia.xcframework', 'AmazonChimeSDK.xcframework'
   s.platform = :ios, '8.0'
 
