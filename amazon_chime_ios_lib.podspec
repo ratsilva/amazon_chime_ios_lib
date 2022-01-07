@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'amazon_chime_ios_lib'
-  s.version          = '1.0.10'
+  s.version          = '1.0.11'
   s.summary          = 'Amazon Chime iOS lib'
   s.description      = 'Amazon Chime iOS lib'
   s.homepage         = 'http://example.com'
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :http => 'https://github.com/ratsilva/amazon_chime_ios_lib/releases/download/1.0.5/AmazonChime.zip' }
 #  s.source_files = 'AmazonChime/*.{h,m}'
-  s.vendored_xcframeworks = 'AmazonChime/AmazonChimeSDKMedia.xcframework', 'AmazonChime/AmazonChimeSDK.xcframework'
+  s.vendored_frameworks = 'amazon_chime_ios_lib/AmazonChime/AmazonChimeSDKMedia.xcframework', 'amazon_chime_ios_lib/AmazonChime/AmazonChimeSDK.xcframework'
   s.platform = :ios, '8.0'
 
   # Flutter.framework does not contain a i386 slice.
