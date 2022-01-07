@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'amazon_chime_ios_lib'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'Amazon Chime iOS lib'
   s.description      = 'Amazon Chime iOS lib'
   s.homepage         = 'http://example.com'
